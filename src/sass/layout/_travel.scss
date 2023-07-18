@@ -1,0 +1,17 @@
+@use "../custom";
+
+.travel{
+  height: 100vh;
+  background-image: url("../img/background.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &-text{
+  	@media(min-width: 550px){
+  		width: 55%;
+  	}
+  }
+}
+
